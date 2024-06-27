@@ -10,7 +10,7 @@ My goal is to learn frontend development with the purpose of successful employme
 My strengths are hard work, quick learning and responsibility.
 
 
-I am interested in learning and applying new things in practice
+I am interested in learning and applying new things in practice.
 
 ## Skills
 * ___IDE:___ Visual Studio Code
