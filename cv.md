@@ -13,12 +13,16 @@ My strengths are hard work, quick learning and responsibility.
 I am interested in learning and applying new things in practice
 
 ## Skills
-* _IDE:_ Visual Studio Code
+* ___IDE:___ Visual Studio Code
 * GIT
+* Figma
 * HTML
 * CSS
 * JS
 * React
 * Redux Toolkit
 
-
+## Training projects
+1. [Сайт автомобилей](https://github.com/Maria1564/lease-cars) -  HTML, CSS, JS
+2. [Сайт-визитка](https://github.com/Maria1564/site-visitka) -  CSS, React
+3. [Интернет-магазин](https://github.com/Maria1564/online-carpet-store/tree/feature) -  CSS, React, Redux Toolkit, Express.js
