@@ -151,3 +151,24 @@ span {
 .summary__test {
     max-width: 425px;;
 }
+
+.skills__cols {
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.skills__col {
+    padding: 0;
+}
+
+.skills__item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.skills__item-span {
+    color: #000000;
+    font-weight: 400;
+}
