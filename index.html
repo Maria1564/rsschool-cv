@@ -74,6 +74,7 @@
               </li>
             </ul>
           </section>
+
           <section class="section" id="summary">
             <h2 class="section__title">summary</h2>
             <p class="summary__test">
@@ -88,6 +89,7 @@
               My strengths are hardworking, quick learner and responsible.
             </p>
           </section>
+
           <section class="section" id="skills">
             <h2 class="section__title">skills</h2>
             <div class="skills__cols">
@@ -129,6 +131,7 @@
                 </ul>
             </div>
           </section>
+
           <section class="section" id="courses">
             <h2 class="section__title">courses</h2>
             <ul class="courses__list">
@@ -142,18 +145,52 @@
               </li>
             </ul>
           </section>
+
           <section class="section" id="projects">
             <h2 class="section__title">projects</h2>
+            <ol class="projects__list">
+              <li class="projects__item">
+                <a href="https://github.com/Maria1564/lease-cars" class="projects__item-link">Сайт автомобилей</a>
+                <span class="projects__additional-info">-  HTML, CSS, JS</span>
+              </li>
+              <li class="projects__item">
+                <a href="https://github.com/Maria1564/site-visitka" class="projects__item-link">Сайт-визитка</a>
+                <span class="projects__additional-info">- CSS, React</span>
+              </li>
+              <li class="projects__item">
+                <a href="https://github.com/Maria1564/online-carpet-store/tree/feature" class="projects__item-link">Интернет-магазин</a>
+                <span class="projects__additional-info">-  CSS, React, Redux Toolkit, Express.js</span>
+              </li>
+            </ol>
           </section>
+
           <section class="section" id="code">
             <h2 class="section__title">code</h2>
+            <pre><code>
+const [sizes, setSizes] = useState([])
+const [isOpenModal, setIsOpenModal] = useState(false)
+
+const dispatch = useDispatch()
+
+const  {favoriteProducts: favorites} =  useSelector(state => state.favorites)
+const cartProducts = useSelector(state => state.cart.products);
+
+useEffect(()=>{
+  axios.get("/sizes").then(({data})=>setSizes(data))
+  dispatch(getAllCart())
+  dispatch(getFavorites())
+}, [dispatch])
+            </code></pre>
           </section>
+
           <section class="section" id="education">
             <h2 class="section__title">education</h2>
           </section>
+
           <section class="section" id="english">
             <h2 class="section__title">english</h2>
           </section>
+
         </div>
       </div>
     </main>

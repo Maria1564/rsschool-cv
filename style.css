@@ -25,10 +25,12 @@ body {
 
 ul {
     padding-left: 10px;
+    list-style: none;
 }
 
-li {
-    list-style: none;
+a,
+a:active {
+    text-decoration: none;
 }
 
 .container {
@@ -176,4 +178,30 @@ span {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.projects__item {
+    max-width: 380px;
+
+}
+
+.projects__item::marker {
+   color:  var(--color-primary);
+   font-weight: 700;
+
+}
+.projects__item-link {
+    color: grey;
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.projects__additional-info {
+    color: inherit;
+    font-weight: 500;
+}
+
+pre{
+    margin: 0;
 }
