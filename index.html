@@ -1,12 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#contacts" class="nav__item-link">contacts</a>
+            </li>
+            <li class="nav__item">
+              <a href="#summary" class="nav__item-link">summary</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__item-link">skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#code" class="nav__item-link">code</a>
+            </li>
+            <li class="nav__item">
+              <a href="#courses" class="nav__item-link">courses</a>
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__item-link">projects</a>
+            </li>
+            <li class="nav__item">
+              <a href="#education" class="nav__item-link">education</a>
+            </li>
+            <li class="nav__item">
+              <a href="#english" class="nav__item-link">english</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <section class="section" id="profile">
+          <img
+            src="./assets/img/avatar.jpg"
+            alt="avatar"
+            class="profile__avatar"
+            width="180"
+            height="180"
+          />
+          <div class="profile__text">
+            <h1 class="section__title">Shalygina Maria</h1>
+            <p class="profile__position">JUNIOR FRONTEND DEVELOPER</p>
+          </div>
+        </section>
+        <div class="main__other-sections">
+          <section class="section" id="contacts">
+            <h2 class="section__title">contacts</h2>
+            <ul class="contacts__list">
+              <li class="contacts__item">
+                <p class="contacts__item-link">
+                  <span>telegram: </span>@maria1241
+                </p>
+              </li>
+              <li class="contacts__item">
+                <p class="contacts__item-link">
+                  <span>discord: </span>Maria (@Maria1564)
+                </p>
+              </li>
+            </ul>
+          </section>
+
+          <section class="section" id="summary">
+            <h2 class="section__title">summary</h2>
+            <p class="summary__test">
+              My name is <span>Maria</span>, I really enjoy developing websites. I am
+              interested in learning and putting new things into practice.
+            </p>
+            <p class="summary__test">
+              My goal is to learn frontend development with the purpose of
+              successful employment and further development.
+            </p>
+            <p class="summary__test">
+              My strengths are hardworking, quick learner and responsible.
+            </p>
+          </section>
+
+          <section class="section" id="skills">
+            <h2 class="section__title">skills</h2>
+            <div class="skills__cols">
+                <ul class="skills__col">
+                    <li class="skills__item">
+                        <img src="./assets/icons/html5.png " alt="html" width="80" height="80">
+                        <span class="skills__item-span">HTML</span>
+                    </li>
+                    <li class="skills__item">
+                        <img src="./assets/icons/brand-css3.png" alt="css" width="80" height="80">
+                        <span class="skills__item-span">CSS</span>
+                    </li>
+                    <li class="skills__item">
+                        <img src="./assets/icons/javascript.png" alt="js" width="80" height="80">
+                        <span class="skills__item-span">JS</span>
+                    </li>
+                    <li class="skills__item">
+                        <img src="./assets/icons/figma.png" alt="figma" width="80" height="80">
+                        <span class="skills__item-span">Figma</span>
+                    </li>
+                </ul>
+                <ul class="skills__col">
+                    <li class="skills__item">
+                        <img src="./assets/icons/vscode.png " alt="vscode" width="80" height="80">
+                        <span class="skills__item-span">VSCode</span>
+                    </li>
+                    <li class="skills__item">
+                        <img src="./assets/icons/react.png" alt="react" width="80" height="80">
+                        <span class="skills__item-span">React</span>
+                    </li>
+                    <li class="skills__item">
+                        <img src="./assets/icons/redux.png" alt="redux" width="80" height="80">
+                        <span class="skills__item-span">Redux Toolkit</span>
+                    </li>
+                    <li class="skills__item">
+                        <img src="./assets/icons/git-branch.png" alt="git" width="80" height="80">
+                        <span class="skills__item-span">Git</span>
+                    </li>
+                </ul>
+            </div>
+          </section>
+
+          <section class="section" id="courses">
+            <h2 class="section__title">courses</h2>
+            <ul class="courses__list">
+              <li class="courses__item">
+                <span>Glo Academy: </span>
+                <p class="courses__course-title">website developer</p>
+              </li>
+              <li class="courses__item">
+                <span>YouTube: </span>
+                <p class="courses__course-title">React JS - way of the samurai</p>
+              </li>
+            </ul>
+          </section>
+
+          <section class="section" id="projects">
+            <h2 class="section__title">projects</h2>
+            <ol class="projects__list">
+              <li class="projects__item">
+                <a href="https://github.com/Maria1564/lease-cars" class="projects__item-link">Сайт автомобилей</a>
+                <span class="projects__additional-info">-  HTML, CSS, JS</span>
+              </li>
+              <li class="projects__item">
+                <a href="https://github.com/Maria1564/site-visitka" class="projects__item-link">Сайт-визитка</a>
+                <span class="projects__additional-info">- CSS, React</span>
+              </li>
+              <li class="projects__item">
+                <a href="https://github.com/Maria1564/online-carpet-store/tree/feature" class="projects__item-link">Интернет-магазин</a>
+                <span class="projects__additional-info">-  CSS, React, Redux Toolkit, Express.js</span>
+              </li>
+            </ol>
+          </section>
+
+          <section class="section" id="code">
+            <h2 class="section__title">code</h2>
+            <pre><code>
+const [sizes, setSizes] = useState([])
+const [isOpenModal, setIsOpenModal] = useState(false)
+
+const dispatch = useDispatch()
+
+const  {favoriteProducts: favorites} =  useSelector(state => state.favorites)
+const cartProducts = useSelector(state => state.cart.products);
+
+useEffect(()=>{
+  axios.get("/sizes").then(({data})=>setSizes(data))
+  dispatch(getAllCart())
+  dispatch(getFavorites())
+}, [dispatch])
+            </code></pre>
+          </section>
+
+          <section class="section" id="education">
+            <h2 class="section__title">education</h2>
+            <p class="education__name">Kaluga College of Electronic Devices</p>
+          </section>
+
+          <section class="section" id="english">
+            <h2 class="section__title">english</h2>
+            <p  class="english__level">A1 - Elementary</p>
+          </section>
+
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__social">
+          <a href="https://github.com/Maria1564" class="footer__github">
+            <img src="./assets/icons/github.png" alt="" width="90" height="90">
+            <span class="footer__github-link">Link to my github</span>
+          </a>
+          <a href="https://rs.school/courses/javascript-ru">
+            <img src="./assets/img/rs-school-logo.svg" alt="" width="130">
+          </a>
+        </div>
+        <p class="footer__year-create">2024г</p>
+      </div>
+    </footer>
+  </body>
 </html>
